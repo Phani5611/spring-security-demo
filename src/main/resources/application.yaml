@@ -13,5 +13,5 @@ spring:
 
 app:
   jwt:
-    secret: htBlPXYya8cPrh80+nt6rRbLYGkk5TWonf/9zTvzbPk=
+    secret: '${app.jwt.secret}'
 
