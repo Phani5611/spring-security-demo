@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: demo
+  security:
+    user:
+     name: admin
+     password: admin
+
+  Datasource:
+    url: jdbc:postgresql://localhost:5432/security-demo
+    username: postgres
+    password: 1234
+
+app:
+  jwt:
+    secret: htBlPXYya8cPrh80+nt6rRbLYGkk5TWonf/9zTvzbPk=
+
