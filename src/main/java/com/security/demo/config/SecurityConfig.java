@@ -42,7 +42,8 @@ public class SecurityConfig {
     }
 
 
-    //Which routes the user authentication by using correct method calls
+    //Which routes the user authentication by using correct method calls.
+    // this is used to avoid default UsernamePassword authentication check and follow the JWT process which user created. and then do the UsernamePassword authentication.
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration config ) throws Exception {
            return config.getAuthenticationManager();
